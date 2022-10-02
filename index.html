@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Dinamico</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font: 1.1rem 'verdana';
+            
+        }
+        .btn{
+            all: unset;
+            margin: auto;
+            background: #0275d8;
+            padding: 12px;
+            color: #fff;
+            width: 80px;
+            text-align: center;
+            border-radius: 10px;
+            letter-spacing: 1px;
+        }
+        #container{
+            padding: 12px;
+        }
+        #myform{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+        }
+        input{
+            all: unset;
+            width: 250px;
+            height: 24px;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            padding: 8px;
+        }
+        #myform label{
+            position: relative;
+            margin-left: -80%;
+        }
+        #myform #enviar{
+            all: unset;
+            background: #0275d8;
+            padding: 8px;
+            width: 80px;
+            text-align: center;
+            color: #fff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn">Form</button>
+    <script src="script.js"></script>
+</body>
+</html>
